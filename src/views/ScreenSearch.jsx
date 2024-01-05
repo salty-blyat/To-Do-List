@@ -53,8 +53,9 @@ const ScreenSearch = ({ icon }) => {
         <Searchbar handleSearch={handleSearch} />
         <div className="list w-100 h-100">
           {/* Conditionally render the filtered items only if search term is present */}
-          {searchTerm &&
-            filteredItems.map((item, index) => (
+          {
+            // searchTerm &&
+          filteredItems.map((item, index) => (
               <ListItem
                 key={index}
                 item={item}
