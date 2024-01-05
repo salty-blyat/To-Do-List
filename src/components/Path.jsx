@@ -28,7 +28,7 @@ const Path = () => {
     <PageContext.Provider value={{ pageTitles, setPageTitles, updatePageTitle, pageIcons }}>
       <Routes>
         <Route
-          path="/To-Do-List/"
+          path="/myday/"
           element={<MyDay icon={pageIcons[0]} pageTitle={pageTitles[0]} />}
         />
         <Route

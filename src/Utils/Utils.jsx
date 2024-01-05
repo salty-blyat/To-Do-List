@@ -33,7 +33,7 @@ export const sortItems = (items) => {
 
 
 export const navLinksData = [
-  { to: "/To-Do-List/", label: "My Day", icon: "light_mode" },
+  { to: "/myday/", label: "My Day", icon: "light_mode" },
   { to: "/Important", label: "Important", icon: "family_star" },
   { to: "/Planned", label: "Planned", icon: "priority" },
   { to: "/Assigned", label: "Assigned to me", icon: "account_circle" },
